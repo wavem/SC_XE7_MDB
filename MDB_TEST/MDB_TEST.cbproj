@@ -104,7 +104,7 @@
     <PropertyGroup Condition="'$(Cfg_1_Win32)'!=''">
         <VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
         <VerInfo_Locale>1033</VerInfo_Locale>
-        <FinalOutputDir>Z:\wave\020_Test\MDB\010_SourceCode\MDB_TEST\Win32\Debug\DB\</FinalOutputDir>
+        <FinalOutputDir>Z:\wave\020_Test\MDB\010_SourceCode\MDB_TEST\Win32\Debug\</FinalOutputDir>
         <ILINK_LibraryPath>$(BDS)\lib\win32\release\;$(ILINK_LibraryPath)</ILINK_LibraryPath>
         <LinkPackageImports>rtl.bpi;vcl.bpi;dbrtl.bpi;adortl.bpi;vcldb.bpi</LinkPackageImports>
     </PropertyGroup>

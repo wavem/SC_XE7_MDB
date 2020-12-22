@@ -28,7 +28,7 @@ void __fastcall TForm1::Button1Click(TObject *Sender)
 void __fastcall TForm1::Button2Click(TObject *Sender)
 {
 	ADOQuery->SQL->Clear();
-	ADOQuery->SQL->Add(L"Select * from DB.USER where UserName = 'LSJ'");
+	ADOQuery->SQL->Add(L"Select * from DB\\DB.USER where UserName = 'LSJ'");
 	//ADOQuery->SQL->Add(L"Select UserName from DB.USER");
 	ADOQuery->Open();
 	//ADOQuery->Active = true;
